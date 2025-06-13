@@ -1,0 +1,114 @@
+1. Machine learning 101:
+AI->(Machine Learning->Deep learing)+Data Science+ Data Engineering
+https://teachablemachine.withgoogle.com/train/image
+Spreadsheets-> Relational DB-> Big Data NoSQL MongoDB
+A. Data Collection
+B. Data Modeling (
+    1. Problem defining
+    2. Data
+    3. Evaluation
+    4. Features
+    5. Modeling
+    6. Experiments
+)
+C. Deployment
+
+**Machine Learning Playground (ml-Playground.com)
+
+**Machine learing catagories: 
+supervised (Classification, regression)
+Unsupervised (clustering, association rule learing)
+Reinforcement (Skill acquisition or realtime learing )
+
+## Data->algorithm-> Patterns
+
+
+
+
+2. Python
+3. Work Environment
+
+Machine Learing Frameworks:
+        A. Data Collection
+        B. Data Modeling (
+            1. Problem defining (What) (Machine learing catagories)
+            2. Data (What WE Have) (Structed vs Unstructred)
+            3. Evaluation (What Define Success)
+                        [Example    
+                            Classification Regression
+                            accuracy (MAE precison at K), 
+                            Precison (MSE)
+                            Recall RootMeanSquaredError(RMSE)]
+            4. Features (What Features Should We model) (Numerical->HeartRate/Weight, Catagorical->status/sex, derived)(10% coverage in a feature)
+            5. Modeling (What Kind of Model to use)
+                            Split Your data in following 3 sets (70-15-15%):
+                            Choosing a model: 
+                                    Structured Data - > Decision tree (CatBoost/XGBoost/Random Forest)
+                                    Unstructred Data - > Deep learing, Transfer Learing 
+
+                            Part1: Choosing and training a model (training) (70%) 
+                                    Goal: Minimise time between Experiments:
+                                            start small and then add complexity
+                                            accuracy, Training time
+                            Part2: Tuning a Modeling (validation)(15%)
+                                    ML model have hyperparameters to adjust
+                            Part3: Model comparison (test)(15%)
+                                    Underfitting-> low performance in Training and test-> due to Data Mismatch 
+                                    Overfitting -> Higher performance in Training and test -> due to data leakage
+                                    Balanced -> From Underfitting:
+                                                    Try a more advanced model
+                                                    Increase model hyperparameters
+                                                    Reduce amount of Features
+                                                    Train longer 
+                                                From Overfitting:
+                                                     Collect more data
+                                                     Try a less advanced model
+                                    *** comparison apple with apple
+
+              
+            6. Experiments (What have We tried/What else can we try)
+
+        )
+        C. Deployment
+
+        Create A Frameworks-> Match to data Science and Machine learing -> learn by doing
+
+
+
+
+
+
+Tools to Use:
+
+PC-> Anaconda -> Jupyter, matplotlib, NumPy, Pandas, Scikitlearn, tenserflow, cat boost, XGBoost,pytorch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4. Data analysis Pandas
+5. NumPy
+6. Data visualizations matplotlib
+Scikit-learn 
+Real live project
+supervised learning - Classification, Regression
+Neural Networks -  Time Series, Transfer Learning, Deep Learning
+
+Transfer learning
+Data Engineering
+Story telling and communication
+
+Online community:
+
